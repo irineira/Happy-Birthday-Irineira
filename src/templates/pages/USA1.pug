@@ -1,0 +1,98 @@
+extends ../template
+
+block varibles
+    - var title = "США"
+
+block content
+   
+    .content 
+        section.usa.non_mob
+            .block2
+
+                p.block2__title Фух, от бандитов оторвались)
+                p.block2__title Теперь ты в Голливуде &#127909; тебе нужно помочь монтажерам отыскать бракованные кадры (найти отличие) 
+
+
+                .block2__otl.block2__otl1
+                    .block2__foto
+                        img(src="./images/otl/1.jpg", alt="")
+                    .block2__blockinp
+                        .block_btninp 
+                            div
+                                input(placeholder="Отличие").block_btninp__inp.foto_inp1
+                            div
+                                button(type="button").block_btninp__btn.foto_btn1 Следующий
+                            
+                .block2__otl.block2__otl2
+                    .block2__foto
+                        img(src="./images/otl/2.jpg", alt="")
+                    .block2__blockinp
+                        .block_btninp 
+                            div
+                                input(placeholder="Отличие").block_btninp__inp.foto_inp2
+                            div
+                                button(type="button").block_btninp__btn.foto_btn2 Следующий
+
+                .block2__otl.block2__otl3
+                    .block2__foto
+                        img(src="./images/otl/33.png", alt="")
+                    .block2__blockinp
+                        .block_btninp 
+                            div
+                                input(placeholder="Отличие").block_btninp__inp.foto_inp3
+                            div
+                                button(type="button").block_btninp__btn.foto_btn3 Готово
+
+
+
+               
+
+
+                .ten
+                .popap1
+
+                    img(src="./images/icn/close.png", alt="").close_usa1
+                    img(src="./images/face.png", alt="")
+                    p Нит)
+
+
+                include ../common/progress.pug
+
+
+            .block3
+                p.block3__title Еще один город в твоем списке, это Сан-Диего)
+                p.block3__title Здесь можно прогуляться по пляжу &#127749; а еще нужно заприметить домик на берегу &#127750;
+                p.block3__title Иринчик, мы прогуливались по пляжу, и увидели наперсточника, как в Одессе, на Дерибасовской)
+                    br
+                    | Оказывается тебе нужно обыграть шулера в наперстки, тогда он отдаст подсказку)
+
+
+                .block3__img
+                    img(src="./images/usa/min_3.gif", alt="")
+
+
+                .block_btninp 
+                    div
+                        input(placeholder="Подсказка...").block_btninp__inp.nap_inp
+                    div
+                        button(type="button").block_btninp__btn.nap_btn На самолет
+               
+
+
+                .ten
+                .popap1
+
+                    img(src="./images/icn/close.png", alt="").close_usa2
+                    img(src="./images/sh.png", alt="")
+                    p Аааааа!!!
+                        br
+                        | Шулер обманул, он отдал не ту подсказку, лови его пока он не убежал!
+
+
+                include ../common/progress.pug
+
+
+
+        include ../common/mob.pug 
+
+            

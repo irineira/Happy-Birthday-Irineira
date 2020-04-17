@@ -1,0 +1,33 @@
+extends ../template
+
+block varibles
+    - var title = "США"
+
+block content
+   
+    .content 
+        section.usa.non_mob
+            
+            .block1 
+
+                p.block1__title &#127906; Прилетели, Ты в Америке, в Чикаго
+                p.block1__title &#127753; И сразу проблемы с местными мафиоззи, тебе нужно победить Дона Бандидоза!) 
+
+                .l 
+                    include ../common/gam.pug
+                
+                .block1__bandidoz
+                    img(src="./images/bandidoz.jpg", alt="")
+
+                .block1__gif
+                    img(src="./images/usa/orel.gif", alt="")
+
+                .ten
+                .popap1
+
+                    button.button.go_block2 Дальше 
+
+
+        include ../common/mob.pug 
+
+            

@@ -1,0 +1,225 @@
+extends ../template
+
+block varibles
+    - var title = "Куба"
+
+block content
+   
+    .content 
+        section.cuba.non_mob
+            img(src="./images/palma/1.gif", alt="").palma1
+            img(src="./images/palma/2.gif", alt="").palma2
+            
+            .custom_ten
+            .custom_popap
+
+                img(src="./images/icn/close.png", alt="").custom_close
+                img(src="./images/face.png", alt="").custom_img
+                p.custom_text Нит, ну зеленое такое)
+                
+                .lib
+                    <input class="inp_danet" type="text" placeholder="Номер билета">
+                    <button class="go_danet">Летим на тусу</button>
+
+            
+            .privet
+
+                p.privet__title Еееееее, приземлились в самой долгожданной стране &#127796; &#127797; &#127927;
+                .privet__stich  
+                    div.div
+                        p.privet__text Тусят лишь лохи В одесском клубе! 
+                            br
+                            | Нет круче тусы, чем здесь на Кубе!
+                    div.div
+                        p.privet__text Твой босс наглеет, соображает туго?
+                            br
+                            | Бросай работу — езжай на Кубу!
+
+                p.privet__title Иринчик, Ты на Кубе, здесь можно классно потусить, чем мы и займемся) 
+
+
+
+                .privet__block_ib
+                    .privet__img
+                        img(src="./images/cuba/cuba_1.jpg", alt="")
+                    .privet__btn.block_btninp 
+                        div
+                            button(type="button").block_btninp__btn.privet_btn Поехали
+                        
+
+                        
+                include ../common/progress.pug
+
+            .concurs1
+                p.concurs1__title Чтобы отдыхать было приятнее, для настроения нужно выпить) 
+                    br
+                    | Но чтобы выпить нужно приготовить напиток, посмотрим, как хорошо ты знаешь кубинскую выпивку)
+
+                br
+                br
+                
+                .concurs1__moch
+                    p.concurs1__title Какого ингредиента не хватает Для коктейля "Мохито"?
+
+                    .concurs1__blockfoto
+                        .concurs1__itemfoto
+                            img(src="./images/moch/laim.jpg", alt="")
+                        .concurs1__itemfoto
+                            img(src="./images/moch/led.jpg", alt="")
+                        .concurs1__itemfoto
+                            img(src="./images/moch/sprite.jpg", alt="")
+                        .concurs1__itemfoto
+                            img(src="./images/moch/rom.jpg", alt="")
+                        
+                    .block_btns_inputs
+                        div.div_inp
+                            input(type="text" placeholder="Ингредиент").common_input.concurs1_inp1
+                        div.div_btn
+                            button.common_btn.concurs1_btn1 Ответить
+
+                .concurs1__libre
+                    p.concurs1__title Какой коктейль состоит из этих ингредиентов?
+
+                    .concurs1__blockfoto
+                        .concurs1__itemfoto
+                            img(src="./images/moch/cola.jpg", alt="")
+                        .concurs1__itemfoto
+                            img(src="./images/moch/rom.jpg", alt="")
+                        .concurs1__itemfoto
+                            img(src="./images/moch/laim.jpg", alt="")
+                        .concurs1__itemfoto
+                            img(src="./images/moch/led.jpg", alt="")
+                        
+                    .block_btns_inputs
+                        div.div_inp
+                            input(type="text" placeholder="Ингредиент").common_input.concurs1_inp2
+                        div.div_btn
+                            button.common_btn.concurs1_btn2 Ответить
+
+                
+                
+
+                    
+                .concurs1__fig
+                    img(src="./images/cuba/2.gif", alt="")
+
+
+
+            .tanci 
+                img(src="./images/cuba/sun.gif", alt="").sun
+                p.tanci__title Ой, подбухнули знатно)))
+                    br
+                    | Теперь разогретыми можем приступить к танцам)
+                    br
+                    | Нужно пройти 3 урока кубинского танца
+
+                
+
+                .tanci__blockvid.tanci__blockvid1
+                    .tanci__itemvid
+                        <iframe width="760" height="415" src="https://www.youtube.com/embed/-agD6ja_4Yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    .tanci_blockbtn
+                        .block_btns_inputs
+                            .div_btn
+                                button.common_btn.tanci_btn1 Следующий урок
+
+                .tanci__blockvid.tanci__blockvid2
+                    .tanci__itemvid
+                        <iframe width="760" height="415" src="https://www.youtube.com/embed/YwxB1MSytYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    .tanci_blockbtn
+                        .block_btns_inputs
+                            .div_btn
+                                button.common_btn.tanci_btn2 Следующий урок
+
+
+                .tanci__blockvid.tanci__blockvid3
+                    .tanci__itemvid
+                        <iframe width="760" height="415" src="https://www.youtube.com/embed/81IGMgkLfFk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    .tanci_blockbtn
+                        .block_btns_inputs
+                            .div_btn
+                                button.common_btn.tanci_btn3 Натанцевалась)
+
+
+            .predfinal 
+                img(src="./images/cuba/sun.gif", alt="").sun
+
+                p.predfinal__title Жарки танцы выгнали весь алкоголь из организма)
+                    br
+                    | Но путешествие продолжается, мы какраз на подходе к самому интересному месту, но тут строгие правила, 
+                    br
+                    |пока полиция не задаст все свои вопросы, двигаться дальше Ты не сможешь)
+
+
+                .predfinal__block.predfinal__block1
+                    .predfinal__qw Веришь ли ты, что почти во всех кубинских домах в окнах нет стекол – вместо них люди используют жалюзи?
+                    .predfinal__blockbtn
+                        button.button_ver.button_ver1 Верю
+                        button.button_never.button_never1 Неверю
+                    
+                    .predfinal__img
+                        img(src="./images/cuba/v/1.png", alt="")
+
+                .predfinal__block.predfinal__block2
+                    .predfinal__qw Веришь ли ты, что кубинцы ненавидят дождь настолько, что в плохую погоду не пускают своих детей в школу, а сами – не идут на работу?
+                    .predfinal__blockbtn
+                        button.button_ver.button_ver2 Верю
+                        button.button_never.button_never2 Неверю
+                    
+                    .predfinal__img
+                        img(src="./images/cuba/v/2.png", alt="")
+
+
+                .predfinal__block.predfinal__block3
+                    .predfinal__qw Веришь ли ты, что на центральных кубинских телеканалах запрещено показывать рекламу?
+                    .predfinal__blockbtn
+                        button.button_ver.button_ver3 Верю
+                        button.button_never.button_never3 Неверю
+                    
+                    .predfinal__img
+                        img(src="./images/cuba/v/3.png", alt="")
+
+
+                .predfinal__block.predfinal__block4
+                    .predfinal__qw Веришь ли ты, что на Кубе запрещен автостоп?
+                    .predfinal__blockbtn
+                        button.button_ver.button_ver4 Верю
+                        button.button_never.button_never4 Неверю
+                    
+                    .predfinal__img
+                        img(src="./images/cuba/v/4.png", alt="")
+
+                .predfinal__block.predfinal__block5
+                    .predfinal__qw Веришь ли ты что правительство Кубы дарит подарки всем гостям острова?
+                    .predfinal__blockbtn
+                        button.button_ver.button_ver5 Верю
+                        button.button_never.button_never5 Неверю
+                    
+                    .predfinal__img
+                        img(src="./images/cuba/v/5.png", alt="")
+
+
+                include ../common/progress.pug
+
+
+            .final
+                
+                img(src="./images/cuba/sun.gif", alt="").sun
+                p.final__title Иринчик, поздравляю тебя с твоим днем &#127801; &#127843; &#127874; &#127881; 
+                    br
+                    | Желаю тебе никогда не грустить, быть здоровой и счастливой, это будет заодно подарком и для меня)
+                    br
+                    | А твой подарок от властей Кубы здеся => 
+                         
+                    a(href="./podarok.html") &#127873;
+
+
+
+                include ../common/progress.pug
+
+                .final__fig
+                    img(src="./images/cuba/2.gif", alt="")
+
+
+
+        include ../common/mob.pug 

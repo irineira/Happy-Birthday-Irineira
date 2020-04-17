@@ -1,0 +1,497 @@
+extends ../template
+
+block varibles
+    - var title = "Япония"
+
+block content
+   
+    .content 
+        section.jp.non_mob
+            .jp_content
+                p.jphello Иринчик, ты уже почти долетела до первой локации, пока самолет осуществляет посадку, я тебе расскажу правила и введу в курс дела. 
+                    br 
+                    br
+                    | У тебя будет путешествие по 3-ем странам, в ходе путешествия тебе нужно будет разгадывать головоломки и выполнять задания. 
+
+                br
+                ul
+                    li Внимательно читай задания, не торопись;
+                    li В отдельных заданиях возможны подсказки;
+                    li Телефоном в спомагательных целях пользоваться можно, иногда даже нужно;
+                    li И главное: не выполнив задание невозможно будет путешествовать дальше)  
+
+                br
+                hr
+
+                p.textjp Ура !!! Прибыли, выгружаемся в Японии
+
+                .jp_btn_block
+                    button.jp_btn
+                        span Нажми на сушу)
+
+            .victorina 
+                p.victorina_title Ты в Японии, и для того чтобы лучше узнать эту страну и двигаться дальше, нужно пройти небольшую викторинку)
+                p.victorina_title Иринчик, тебе нужно ответить на 13 вопросов, после того как ответишь на все вопросы ты получишь "Секретный шифр"
+                //- p.victorina_title.text_smol 
+                    b 
+                        | Примечание: 
+                    | тебе нужно запонить номер правильного ответа на кажды из 13 вопросов, в итоге получится шифр типп "1321323213" 
+                br
+                p.vk_title Викторина
+                
+                .vkblock
+                    .vkblock_top
+                        p.qw_number_text Вопрос 
+                            span.number 1 
+                        p.qw_number 
+                            span.number2 1
+                            | /13
+                    
+                    .vkblock_qw1_block
+                        .vkblock_qw1_text Как называется самый большой по площади остров Японии?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").false
+                                    | Хоккайдо 
+                                label
+                                    input(type="radio" name="one_q" value="2").true
+                                    | Хонсю 
+                                label
+                                    input(type="radio" name="one_q" value="3").false
+                                    | Сикоку 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans1 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block2
+                        .vkblock_qw1_text Как называется национальная еда японцев, которую можно попробовать даже у нас в городе?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").false
+                                    | Лапша 
+                                label
+                                    input(type="radio" name="one_q" value="2").false
+                                    | Жаренный рис 
+                                label
+                                    input(type="radio" name="one_q" value="3").true2
+                                    | Суши 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans2 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block3
+                        .vkblock_qw1_text Как называется ядовитая рыба, съев которую чуть недожаренной или пережаренной, можно отравиться и умереть?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").true3
+                                    | Фугу 
+                                label
+                                    input(type="radio" name="one_q" value="2").false
+                                    | Карасик 
+                                label
+                                    input(type="radio" name="one_q" value="3").false
+                                    | Фига 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans3 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block4
+                        .vkblock_qw1_text Как называли в Японии японских рыцарей (военное сословие)?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").false
+                                    | Гейши
+                                label
+                                    input(type="radio" name="one_q" value="2").true4
+                                    | Самураи
+                                label
+                                    input(type="radio" name="one_q" value="3").false
+                                    | Сэнсеи 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans4 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block5
+                        .vkblock_qw1_text Какой продукт по причине нейтральности годится для любых блюд, и основных, и десертных?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").false
+                                    | Дайкон 
+                                label
+                                    input(type="radio" name="one_q" value="2").false
+                                    | Васаби 
+                                label
+                                    input(type="radio" name="one_q" value="3").true5
+                                    | Тофу 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans5 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block6
+                        .vkblock_qw1_text А как называется традиционный спиртной напиток японцев?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").false
+                                    | Чача 
+                                label
+                                    input(type="radio" name="one_q" value="2").false
+                                    | Фрапе 
+                                label
+                                    input(type="radio" name="one_q" value="3").true6
+                                    | Саке 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans6 Ответить
+                            
+
+                    .vkblock_qw1_block.vkblock_qw1_block7
+                        .vkblock_qw1_text Национальная одежда японской женщины?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").true7
+                                    | Кимоно 
+                                label
+                                    input(type="radio" name="one_q" value="2").false
+                                    | Гейшанья 
+                                label
+                                    input(type="radio" name="one_q" value="3").false
+                                    | Спортивки 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans7 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block8
+                        .vkblock_qw1_text Как называется искусство составления букетов?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").false
+                                    | Сухостой 
+                                label
+                                    input(type="radio" name="one_q" value="2").true8
+                                    | Икебана 
+                                label
+                                    input(type="radio" name="one_q" value="3").false
+                                    | Папье маше 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans8 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block9
+                        .vkblock_qw1_text Название палочек, которыми едят рис?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").false
+                                    | Ямакаси 
+                                label
+                                    input(type="radio" name="one_q" value="2").false
+                                    | Суньями 
+                                label
+                                    input(type="radio" name="one_q" value="3").true9
+                                    | Хаси 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans9 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block10
+                        .vkblock_qw1_text Что означает словосочетание "sushi-zume"?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").false
+                                    | Большой ролл 
+                                label
+                                    input(type="radio" name="one_q" value="2").true10
+                                    | Давка в метро 
+                                label
+                                    input(type="radio" name="one_q" value="3").false
+                                    | Круглый рис 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans10 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block11
+                        .vkblock_qw1_text Какое число считается несчастливым в Восточной Азии?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").true11
+                                    | 4 
+                                label
+                                    input(type="radio" name="one_q" value="2").false
+                                    | 1 
+                                label
+                                    input(type="radio" name="one_q" value="3").false
+                                    | 3 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans11 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block12
+                        .vkblock_qw1_text Что говорят современные японцы, отвечая на телефонный звонок?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").false
+                                    | Суши-суши
+                                label
+                                    input(type="radio" name="one_q" value="2").true12
+                                    | Моси-моси 
+                                label
+                                    input(type="radio" name="one_q" value="3").false
+                                    | Ой-вэй
+                            div.btn_podtv_block
+                                button(type="button").btn_ans12 Ответить
+
+                    .vkblock_qw1_block.vkblock_qw1_block13
+                        .vkblock_qw1_text Как образно часто называют Японию?
+                        form.vkblock_qw1_ans 
+                            div
+                                label
+                                    input(type="radio" name="one_q" value="1").true13
+                                    | Страна восходящего солнца 
+                                label
+                                    input(type="radio" name="one_q" value="2").false
+                                    | Страна утренней свежести 
+                                label
+                                    input(type="radio" name="one_q" value="3").false
+                                    | Страна белого длинного облака 
+                            div.btn_podtv_block
+                                button(type="button").btn_ans13 Ответить
+
+
+                    
+                    .vkblock_qw1_block.vkblock_qw1_block14
+                        .vkblock_qw1_text Введи код и едем дальше)
+                        form.vkblock_qw1_ans 
+                            div
+                                input(placeholder="1321...").inp
+                            div.btn_podtv_block
+                                button(type="button").btn_ans14 Поехали дальше
+
+
+                
+
+                    .shifr
+                        .shifr_title Шифр:  
+                        .shifr_num
+
+                    .ten
+                    .popap1
+                        
+                        img(src="./images/icn/close.png", alt="").close
+                        img(src="./images/plak.png", alt="")
+                        p Нит)
+                        
+
+            //- ПАЛКИ
+            .palki 
+                p.palki_title Иринюхин, теперь двигаемся дальше, и так как ты теперь знаешь как по настоящему называются палочки для суши, самое время ними поработать)
+                p.palki_title Тебе нужно палочками достать из сосуда очень важную подсказку, с помощью которой ты сможешь продолжить свое путешествие)
+                        
+                img(src="./images/gif/palki.gif", alt="").palki_gif    
+
+                .palki_btninp 
+                    div
+                        input(placeholder="код").palki_inp
+                    div
+                        button(type="button").palki_btn Улетели 
+
+
+                .ten
+                .popap1
+
+                    img(src="./images/icn/close.png", alt="").close
+                    img(src="./images/shapka.png", alt="")
+                    p Адмануть вздумала?))
+
+            
+            //- Отличия
+            .otlichi 
+                p.otlichi__title Иринчик, это твой прогресс, по ходу путешествия будешь следить за тем как ты меняешься) 
+
+                include ../common/progress.pug
+
+                p.otlichi__text Теперь мы в ресторане, для дого чтобы скушать все суши тебе нужно определить какой ингредиент отсутствует в сушах 1, 3, 5, 7)
+
+                .otlichi__block
+                    .otlichi__itemsu
+                        img(src="./images/su/1.jpg", alt="")
+                        p 1
+
+                    .otlichi__itemsu
+                        img(src="./images/su/2.png", alt="")
+                        p 2
+
+                    .otlichi__itemsu
+                        img(src="./images/su/3.png", alt="")
+                        p 3
+
+                    .otlichi__itemsu
+                        img(src="./images/su/4.png", alt="")
+                        p 4
+
+                    .otlichi__itemsu
+                        img(src="./images/su/5.png", alt="")
+                        p 5
+
+                    .otlichi__itemsu
+                        img(src="./images/su/6.jpg", alt="")
+                        p 6
+
+                    .otlichi__itemsu
+                        img(src="./images/su/7.png", alt="")
+                        p 7
+
+                    .otlichi__itemsu
+                        img(src="./images/su/8.png", alt="")
+                        p 8
+
+                .otlichibtninp 
+                    div
+                        input(placeholder="Ингредиент").otlichibtninp__inp
+                    div
+                        button(type="button").otlichibtninp__btn Кушаем сушу 
+
+                .ten
+                .popap1
+
+                    img(src="./images/icn/close.png", alt="").close
+                    img(src="./images/pop_3.png", alt="")
+                    p Ну нет, не	&#32
+                        span.otvet
+
+
+            //- Соотнеси
+            .sootnesi     
+                p.sootnesi__text Сушиков понаедались, теперь последнее задание.
+                p.sootnesi__text В последнем задании тебе нужно прочитать послание на японском языке, не забудь, что японские иероглифы читаются справа налево, сверху вниз)
+
+                .sootnesi__zadanie
+                    p 女午女
+                    p 八
+                    p 入土八子手手子口土
+
+
+                p.sootnesi__text(style="padding: 0 0 10px 40px; text-align: left;") Табличка соответствий)
+
+                .sootnesi__blockY
+                    .sootnesi__item
+                        div 人
+                        div A
+                    .sootnesi__item
+                        div 七
+                        div Б
+                    .sootnesi__item
+                        div 八
+                        div В
+                    .sootnesi__item
+                        div 九
+                        div Г
+                    .sootnesi__item
+                        div 十
+                        div Д
+                    .sootnesi__item
+                        div 入
+                        div Е
+                    .sootnesi__item
+                        div 上
+                        div Ё
+                    .sootnesi__item
+                        div 下
+                        div Ж
+                    .sootnesi__item
+                        div 大
+                        div З
+                    .sootnesi__item
+                        div 女
+                        div И
+                    .sootnesi__item
+                        div 万
+                        div Й
+                    .sootnesi__item
+                        div 土
+                        div К
+                    .sootnesi__item
+                        div 山
+                        div Л
+                    .sootnesi__item
+                        div 千
+                        div М
+                    .sootnesi__item
+                        div 川
+                        div Н
+                    .sootnesi__item
+                        div 子
+                        div О
+                    .sootnesi__item
+                        div 小
+                        div П
+                    .sootnesi__item
+                        div 口
+                        div Р
+                    .sootnesi__item
+                        div 手
+                        div С
+                    .sootnesi__item
+                        div 五
+                        div Т
+                    .sootnesi__item
+                        div 日
+                        div У
+                    .sootnesi__item
+                        div 六
+                        div Ф
+                    .sootnesi__item
+                        div 分
+                        div Ч
+                    .sootnesi__item
+                        div 中
+                        div Ц
+                    .sootnesi__item
+                        div 円
+                        div Ч
+                    .sootnesi__item
+                        div 月
+                        div Ш
+                    .sootnesi__item
+                        div 午
+                        div Щ
+                    .sootnesi__item
+                        div 今
+                        div Ъ
+                    .sootnesi__item
+                        div 木
+                        div Ы
+                    .sootnesi__item
+                        div 父
+                        div Ь
+                    .sootnesi__item
+                        div 火
+                        div Э
+                    .sootnesi__item
+                        div 天
+                        div Ю
+                    .sootnesi__item
+                        div 来
+                        div Я
+
+
+                .block_btninp 
+                    div
+                        input(placeholder="Послание").block_btninp__inp.inp_usa
+                    div
+                        button(type="button").block_btninp__btn.go_usa Го дальше 
+
+                include ../common/progress.pug
+
+                .ten.ten_so
+                .popap1.pop_so
+
+                    img(src="./images/icn/close.png", alt="").close_so
+                    img(src="./images/face.png", alt="")
+                    p Нит)
+
+
+
+
+        include ../common/mob.pug 
+
+

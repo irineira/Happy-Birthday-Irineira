@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+textarea {
+    resize: vertical;
+    }
+
+
+
+
+
+
+
+// my style
+
+* {
+    transition:all .1s ease-in-out
+}
+
+html{
+    font-size: 0.84vw;
+}
+
+@media screen and (max-width:1100px){
+    // убрать просмотр на мобиле
+}
+
+@media screen and (max-width:769px){
+    html{
+        font-size: 16px;
+    }
+}
+
+.content{
+    overflow: hidden;
+}
+
+body{
+    position: relative;
+    // font-family: montserrat;
+    color: $maintext;
+    font-weight: 400;
+}
+
+a{
+    cursor: pointer !important;
+    text-decoration: none;
+    // &:hover{
+        // text-decoration: underline;
+    // }
+}
+
+
+// @font-face {
+//     font-family: montserrat; /* Имя шрифта */
+//     src: url(../fonts/Montserrat-Light.ttf); // 300
+    
+//     font-weight: 300;
+//     font-style: normal;
+// }
+
+// html{
+//     background: linear-gradient(320deg, #fb999a 5%, #f5e0e2 100%);
+// }
+
+body{
+    // height: 100vw;
+    // background: linear-gradient(90deg, rgba(121,45,216,1) 35%, rgba(45,167,216,1) 100%); 
+    // background: linear-gradient(342deg, rgba(252,101,118,1) 25%, rgba(251,153,154,1) 100%);
+    // // background: linear-gradient(359deg, #fb999a 5%, #f5e0e2 100%);
+    // background: linear-gradient(to bottom right, #f5e0e2, #fb999a)
+    
+    
+    // overflow: hidden;
+    font-size: 30px;
+    font-family: cursive;
+    
+   
+}
+
+.mob_vers{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+    .non_mob{
+        display: none;
+    }
+
+    .mob_vers{
+        display: block;
+        padding: 20px;
+    }
+}
+

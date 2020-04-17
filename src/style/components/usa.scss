@@ -1,0 +1,175 @@
+.usa{
+    // background: linear-gradient(320deg, #001fff5c 5%, #0037ff0f 100%);
+    background: linear-gradient(320deg, #ff000036 5%, #0037ff0f 100%) !important;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.block1{
+    height: 100vh;
+    text-align: center;
+    position: relative;
+
+    &__title{
+        font-family: cursive !important;
+        color: $maintext !important;
+        font-size: 22px !important;
+    }
+
+    &__gif{
+        text-align: center;
+    }
+
+    &__bandidoz{
+        position: absolute;
+        top: 88px;
+        left: 140px;
+        width: 360px;
+        overflow: hidden;
+        height: 510px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .popap1{
+        padding: 40px;
+        z-index: 1000000;
+    }
+
+    .go_block2{
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px  30px;
+        border: 1px solid #4D8FAC;  
+        outline: none;    
+        box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6);     
+        &:hover{
+            cursor: pointer;
+            box-shadow: none;
+        }
+        &:active{
+            box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6); 
+        }
+    }
+}
+
+
+.block2{
+    // display: none;
+    text-align: center;
+
+    &__title{
+        font-size: 22px;
+    }
+
+    .th, .tw, .shp, .w, .wp{
+        display: none !important;
+    }
+
+    .progress__inner{
+        width: 50%;
+    }
+
+    .progress__fotoblock div:nth-child(1){
+        width: 200px;
+    }
+
+    .progress__fotoblock div:nth-child(2){
+        display: flex;
+    }
+
+    .progress__fotoblock div:nth-child(3){
+        width: 45px;
+    }
+
+    .progress__fotoblock div:nth-child(4){
+        display: flex;
+        opacity: 0;
+    }
+
+    .progress__fotoblock div:nth-child(5){
+        display: block;
+        width: 200px;
+        opacity: 0;
+    }
+
+    &__otl{
+        padding: 20px 0;
+    }
+
+    &__otl2, &__otl3{
+        display: none;
+    }
+
+    &__foto{
+        margin-bottom: 14px;
+        img{
+            width: 512px;
+            height: 256px;
+        }
+    }
+
+}
+
+
+
+.block3{
+    display: none;
+    text-align: center;
+    padding-bottom: 20px;
+
+    &__title{
+        font-size: 22px;
+    }
+
+    &__img{
+        padding-top: 20px;
+        img{
+            width: 350px;
+        }
+    }
+
+
+    .block_btninp{
+        padding: 20px 0 10px 0;
+    }
+
+    .progress__inner{
+        width: 70%;
+    }
+
+    .progress__inner .tw, .progress__inner .th, .progress__inner .pp, .progress__inner .w, .progress__inner .wp{
+        display: none;
+    }
+
+    .progress__fotoblock div:nth-child(1){
+        width: 200px;
+    }
+
+    .progress__fotoblock div:nth-child(2){
+        display: flex;
+    }
+
+    .progress__fotoblock div:nth-child(3){
+        width: 200px;
+    }
+
+    .progress__fotoblock div:nth-child(4){
+        display: flex;
+    }
+
+    .progress__fotoblock div:nth-child(5){
+        display: block;
+        width: 200px;
+        opacity: 0;
+    }
+
+    .popap1{
+        width: 50%;
+    }
+}
+
+
+

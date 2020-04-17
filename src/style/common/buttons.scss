@@ -1,0 +1,77 @@
+.block_btninp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__inp{
+        width: 220px;
+        height: 45px;
+        border-radius: 10px;
+        outline: none;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    &__btn{
+        margin-left: 110px;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px  30px;
+        border: 1px solid #4D8FAC;  
+        outline: none;    
+        box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6);     
+        &:hover{
+            cursor: pointer;
+            box-shadow: none;
+        }
+        &:active{
+            box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6); 
+        }
+    }   
+}
+
+
+
+
+// 2
+.block_btns_inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .div_inp, .div_btn{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .common_input{
+        width: 220px;
+        height: 45px;
+        border-radius: 10px;
+        outline: none;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    .common_btn{
+        margin-left: 110px;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px  30px;
+        border: 1px solid #4D8FAC;  
+        outline: none;    
+        box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6);     
+        &:hover{
+            cursor: pointer;
+            box-shadow: none;
+        }
+        &:active{
+            box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6); 
+        }
+    }   
+}

@@ -1,0 +1,50 @@
+extends ../template
+
+block varibles
+    - var title = "Иринюхин, с днем раждением !!!"
+
+block content
+   
+    .content
+
+        section.sect1.non_mob
+
+            include ../common/header.pug
+
+            .fon_w
+                .text Будем тусить?)
+
+                img(src="./images/bg/morf.png", alt="")
+
+                .btn_notus Тусим
+                .btn_tus Нетусим
+
+                .ten
+                .popap1
+                    
+                    img(src="./images/icn/close.png", alt="").close
+                    img(src="./images/face.png", alt="")
+                    p Ответ не правильный, попробуйте еще раз))
+                
+
+            p.privetstvie Иринюхин, с днем раждением) 
+                
+            img(src="./images/i.png", alt="").i
+
+            p.textsut Иринюхин, поздравляю тебя с твоим совершеннолетием (понимаешь о чем я  &#127863; &#127864; &#127865; &#128521;)
+                br
+                |Хочу тебе пожелать чтобы ты никогда не грустила и не скучала, даже когда нет возможности видиться с друзьями, ходить на морько и проходить наш круг почета) 
+
+            br
+
+            p.firststrana И сразу чтобы грусть ушла, а веселье появилось, приглашаю тебя в тур по 
+                br
+                br
+                a(href="./Japan.html" title="Нужно сделать клёнц)") &#171;Золотому Кольцу Мечтаний&#187;
+
+
+
+
+
+
+        include ../common/mob.pug 

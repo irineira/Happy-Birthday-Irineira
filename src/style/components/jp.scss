@@ -1,0 +1,457 @@
+.jp{
+    background: linear-gradient(320deg,#4D8FAC 5%, #e4f4e7 100%);
+    padding: 20px 0 40px 0;
+    font-size: 28px;
+    height: 100vh;
+
+    .jphello{
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    ul{
+        width: rem(900);
+        margin: 0 auto;
+    }
+
+    .textjp{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .jp_btn_block{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .jp_btn{
+        margin: 0 auto;
+        background-image: url(../images/gif/su.jpg);
+        border-radius: 20px;
+        border: none;
+        width: 200px;
+        height: 140px;
+        background-size: cover;
+        cursor: pointer;
+        position: relative;
+        outline: none;
+        &:hover{
+            background-image: url(../images/gif/su.gif);
+            width: 200px;
+            height: 140px;
+        }
+        &:active{
+            transform: scale(.96)
+        }
+
+        span{
+            position: absolute;
+            top: 49px;
+            right: -120px;
+            display: block;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+
+.victorina{
+    display: none;
+    text-align: center;
+
+
+    .text_smol{
+        font-size: 20px;
+    }
+}
+
+.vkblock{
+    width: rem(1000);
+    margin: 0 auto;
+
+    .vkblock_top{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid $maintext;
+    }
+
+    .vkblock_qw1_block{
+        text-align: left;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .vkblock_qw1_ans{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 30%;
+        div{
+            display: flex;
+            flex-direction: column;
+
+        }
+        padding-top: 20px;
+
+        input{
+            margin-right: 14px;
+        }
+
+        .inp{
+            width: 220px;
+            height: 45px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            outline: none;
+            padding: 0 10px;
+            font-size: 20px;
+        }
+    }
+
+    .btn_podtv_block{
+        padding-bottom: 20px;
+        button{
+            font-size: 20px;
+            border-radius: 10px;
+            padding: 10px  30px;
+            border: 1px solid #4D8FAC;  
+            outline: none;    
+            box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6);     
+            &:hover{
+                cursor: pointer;
+                box-shadow: none;
+            }
+            &:active{
+                box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6); 
+            }
+        }
+    }
+    
+
+
+    .shifr{
+        display: flex;
+
+        .shifr_title{
+            margin-right: 10px;
+        }
+    }
+
+
+    .ten{
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: black;
+        opacity: .5;
+    }
+    .popap1{
+        display: none;
+        width: 25%;
+        position: absolute;
+        padding: 50px 20px 20px 20px;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        background: white;
+        border-radius: 20px;
+        
+        .close{
+            width: 30px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+
+
+    .vkblock_qw1_block2, 
+    .vkblock_qw1_block3, 
+    .vkblock_qw1_block4, 
+    .vkblock_qw1_block5, 
+    .vkblock_qw1_block6, 
+    .vkblock_qw1_block7, 
+    .vkblock_qw1_block8, 
+    .vkblock_qw1_block9, 
+    .vkblock_qw1_block10, 
+    .vkblock_qw1_block11, 
+    .vkblock_qw1_block12, 
+    .vkblock_qw1_block13, 
+    .vkblock_qw1_block14
+    
+    {
+        display: none;
+    }
+}
+
+
+
+// ПАлки
+
+.palki{
+    display: none;
+    text-align: center;
+
+    .palki_gif{
+        margin-top: 40px;
+        width: 40%;
+    }
+
+    .ten{
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: black;
+        opacity: .5;
+    }
+    .popap1{
+        display: none;
+        width: 25%;
+        position: absolute;
+        padding: 50px 20px 20px 20px;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        background: white;
+        border-radius: 20px;
+        
+        .close{
+            width: 30px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+}
+
+
+.palki_btninp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        display: flex;
+        flex-direction: column;
+
+    }
+    padding-top: 20px;
+
+    
+
+    .palki_inp{
+        width: 220px;
+        height: 45px;
+        border-radius: 10px;
+        outline: none;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    .palki_btn{
+        margin-left: 110px;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px  30px;
+        border: 1px solid #4D8FAC;  
+        outline: none;    
+        box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6);     
+        &:hover{
+            cursor: pointer;
+            box-shadow: none;
+        }
+        &:active{
+            box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6); 
+        }
+    }   
+}
+
+
+
+.otlichi{
+    display: none;
+    text-align: center;
+
+    &__title{
+        font-size: 22px;
+    }
+
+
+    &__text{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    &__block{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 40px;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+    }
+
+    &__itemsu{
+        width: 10%;
+        img{
+            width: 100%;
+            
+        border-radius: 10px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+
+
+    .ten{
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: black;
+        opacity: .5;
+    }
+    .popap1{
+        display: none;
+        width: 25%;
+        position: absolute;
+        padding: 50px 20px 20px 20px;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        background: white;
+        border-radius: 20px;
+        
+        .close{
+            width: 30px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+
+
+    .progress__inner{
+        .th, .pp, .shp, .w, .wp{
+            display: none;
+        }
+    }
+
+}
+
+.otlichibtninp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__inp{
+        width: 220px;
+        height: 45px;
+        border-radius: 10px;
+        outline: none;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    &__btn{
+        margin-left: 110px;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px  30px;
+        border: 1px solid #4D8FAC;  
+        outline: none;    
+        box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6);     
+        &:hover{
+            cursor: pointer;
+            box-shadow: none;
+        }
+        &:active{
+            box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.6); 
+        }
+    }   
+}
+
+
+
+.sootnesi{
+    display: none;
+    text-align: center;
+
+    &__text{
+        font-size: 20px;
+    }
+
+    &__blockY{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    &__item{
+        div{
+            border: 1px solid $maintext;
+            padding: 6px;
+        }
+    }
+
+    &__zadanie{
+        text-align: center;
+        padding: 20px 0;
+        font-weight: 700;
+    }
+
+    .progress .progress__wrapper {
+        .progress__inner{
+            width: 35%;
+            .tw{
+                display: none;
+            }
+        }
+        
+    }
+    .progress__fotoblock div:nth-child(1){
+        width: 200px;
+    }
+
+    .block_btninp{
+        margin-bottom: 29px;
+    }
+
+
+    .progress__inner{
+        .pp, .shp, .w, .wp{
+            display: none;
+        }
+    }
+}
